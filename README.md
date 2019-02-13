@@ -1,2 +1,2 @@
-# csc505-hw2
-CSC 505 2019 HW2
+# Overview
+This repository consists of all work for the 2019 CSC 505 HW2 assignment.
