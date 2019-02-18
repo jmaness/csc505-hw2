@@ -1,0 +1,22 @@
+CompareJugs(R,B) {
+  // R is the array containing info on the red jugs
+  // B is the array containing info on the blue jugs
+  // n is the number of jugs, either red or blue
+  // The index of both R and B arrays go from 1 to n
+  // The values stored in the arrays represent the volume of the jugs
+  
+  pair = new Array[n]
+  
+  //Nested for loop goes over n^2 elements
+  //BIG-THETA(n^2)
+  for(i = 1 to R.length) {
+    for(j = 1 to B.length) {
+      if(R[i] == B[j]) {
+        pair.add((R[i],B[j]));
+      }
+    } 
+  }
+  
+  return pair;
+}
+  
